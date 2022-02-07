@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding-right: 200px;
+    align-items: center;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    color: grey;
+}
+.li{
+  color:rgb(29, 123, 230);
+}
+body{
+    margin: 0;
+}
+main{
+    display: flex;
+    flex-wrap: wrap;
+    font-family:'Playfair Display', serif;
+    font-weight: 200;
+    color: grey;
+}
+article{
+    width: 50%;
+    padding: 80px 30px 80px 110px;
+}
+.article{
+    width: 50%;
+    padding: 80px 30px 80px 340px;
+}
+h5{
+    font-family: 'raleway', sans-serif;
+    font-weight: 200;  
+    color: grey;
+}
+
+.first{
+    left: 50px;
+}
+.festival{
+    width: 500px;
+    height: 320px;
+}
+.coffee{
+    width: 500px;
+    height: 320px;
+}
+.dream{
+    width: 500px;
+    height: 320px;
+}
+.traveler{
+    width: 500px;
+    height: 320px;
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.block{
+    width: 130px;
+    height: 40px;
+    border: 1px solid grey;
+    list-style-type: none;
+    display: inline-block;
+    padding-right: 7px;  
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    padding: 15px 15px 15px 25px;
+    color: grey;
+}
